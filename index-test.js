@@ -2,7 +2,7 @@
 
 import React from 'react';
 import expect from 'expect';
-import toEqualJSX from './';
+import toEqualJSX from './index';
 
 expect.extend({toEqualJSX});
 
