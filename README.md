@@ -47,6 +47,13 @@ npm test
 npm run test:watch
 ```
 
+## Build
+
+```sh
+npm run build
+npm run build:watch
+```
+
 ## Thanks
 
 To the people pointing me in the right directions like:
