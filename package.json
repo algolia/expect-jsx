@@ -13,7 +13,7 @@
   "author": "Algolia <support@algolia.com> (https://github.com/algolia/)",
   "license": "MIT",
   "dependencies": {
-    "react-element-to-jsx-string": "^1.1.0"
+    "react-element-to-jsx-string": "^1.1.1"
   },
   "repository": "algolia/expect-to-equal-jsx",
   "devDependencies": {
@@ -28,6 +28,6 @@
     "react": "^0.14.0"
   },
   "peerDependencies": {
-    "expect": "^1.12.2"
+    "expect": "^1.0.0"
   }
 }

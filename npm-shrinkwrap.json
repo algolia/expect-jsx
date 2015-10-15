@@ -1,6 +1,6 @@
 {
   "name": "expect-to-equal-jsx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "babel": {
       "version": "5.8.23",
@@ -9,7 +9,7 @@
       "dependencies": {
         "babel-core": {
           "version": "5.8.25",
-          "from": "babel-core@>=5.6.21 <6.0.0",
+          "from": "babel-core@>=5.8.23 <6.0.0",
           "resolved": "https://registry.npmjs.org/babel-core/-/babel-core-5.8.25.tgz",
           "dependencies": {
             "babel-plugin-constant-folding": {
@@ -462,7 +462,7 @@
                               "dependencies": {
                                 "align-text": {
                                   "version": "0.1.3",
-                                  "from": "align-text@>=0.1.0 <0.2.0",
+                                  "from": "align-text@>=0.1.1 <0.2.0",
                                   "resolved": "https://registry.npmjs.org/align-text/-/align-text-0.1.3.tgz",
                                   "dependencies": {
                                     "kind-of": {
@@ -498,7 +498,7 @@
                               "dependencies": {
                                 "align-text": {
                                   "version": "0.1.3",
-                                  "from": "align-text@>=0.1.0 <0.2.0",
+                                  "from": "align-text@>=0.1.1 <0.2.0",
                                   "resolved": "https://registry.npmjs.org/align-text/-/align-text-0.1.3.tgz",
                                   "dependencies": {
                                     "kind-of": {
@@ -1454,7 +1454,7 @@
             },
             "js-tokens": {
               "version": "1.0.1",
-              "from": "js-tokens@>=1.0.1 <2.0.0",
+              "from": "js-tokens@1.0.1",
               "resolved": "https://registry.npmjs.org/js-tokens/-/js-tokens-1.0.1.tgz"
             },
             "json5": {
@@ -2488,7 +2488,7 @@
         },
         "glob": {
           "version": "5.0.15",
-          "from": "glob@>=5.0.5 <6.0.0",
+          "from": "glob@>=5.0.14 <6.0.0",
           "resolved": "https://registry.npmjs.org/glob/-/glob-5.0.15.tgz",
           "dependencies": {
             "inflight": {
@@ -3436,14 +3436,10 @@
         }
       }
     },
-    "react-dom": {
-      "version": "0.14.0",
-      "from": "react-dom@>=0.14.0 <0.15.0",
-      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-0.14.0.tgz"
-    },
     "react-element-to-jsx-string": {
-      "version": "1.1.0",
-      "from": "react-element-to-jsx-string@1.1.0",
+      "version": "1.1.1",
+      "from": "react-element-to-jsx-string@>=1.1.1 <2.0.0",
+      "resolved": "https://registry.npmjs.org/react-element-to-jsx-string/-/react-element-to-jsx-string-1.1.1.tgz",
       "dependencies": {
         "collapse-white-space": {
           "version": "1.0.0",
