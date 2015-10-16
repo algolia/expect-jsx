@@ -1,3 +1,13 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/algolia/expect-to-equal-jsx/compare/v1.0.3...v1.1.0) (2015-10-16)
+
+
+### Features
+
+* deeply set functions and React elements now well inlined ([8424e21](https://github.com/algolia/expect-to-equal-jsx/commit/8424e21))
+
+
+
 <a name="1.0.3"></a>
 ## [1.0.3](https://github.com/algolia/expect-to-equal-jsx/compare/v1.0.2...v1.0.3) (2015-10-16)
 
