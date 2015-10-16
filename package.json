@@ -1,6 +1,6 @@
 {
   "name": "expect-to-equal-jsx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "toEqualJSX for mjackson/expect",
   "main": "index-dist.js",
   "scripts": {
