@@ -3437,9 +3437,9 @@
       }
     },
     "react-element-to-jsx-string": {
-      "version": "1.1.1",
-      "from": "react-element-to-jsx-string@>=1.1.1 <2.0.0",
-      "resolved": "https://registry.npmjs.org/react-element-to-jsx-string/-/react-element-to-jsx-string-1.1.1.tgz",
+      "version": "1.1.2",
+      "from": "react-element-to-jsx-string@1.1.2",
+      "resolved": "https://registry.npmjs.org/react-element-to-jsx-string/-/react-element-to-jsx-string-1.1.2.tgz",
       "dependencies": {
         "collapse-white-space": {
           "version": "1.0.0",
