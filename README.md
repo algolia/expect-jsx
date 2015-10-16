@@ -40,6 +40,13 @@ When using [mochajs/mocha](https://github.com/mochajs/mocha), this will look lik
 
 ![Screenshot when using mocha][screenshot]
 
+## A note about functions
+
+`toEqualJSX` will not check for function references, it only checks that if a `function` was
+expected somewhere, there's also a function in the actual data.
+
+It's your responsibility to then unit test those functions.
+
 ## Test
 
 ```sh
