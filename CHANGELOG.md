@@ -1,3 +1,13 @@
+<a name="1.1.3"></a>
+## [1.1.3](https://github.com/algolia/expect-to-equal-jsx/compare/v1.1.2...v1.1.3) (2015-10-16)
+
+
+### Bug Fixes
+
+* handle props.children.length > 1 + array values ([c86a9a4](https://github.com/algolia/expect-to-equal-jsx/commit/c86a9a4))
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/algolia/expect-to-equal-jsx/compare/v1.1.1...v1.1.2) (2015-10-16)
 
