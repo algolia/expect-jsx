@@ -1,3 +1,13 @@
+<a name="1.1.4"></a>
+## [1.1.4](https://github.com/algolia/expect-to-equal-jsx/compare/v1.1.3...v1.1.4) (2015-10-16)
+
+
+### Bug Fixes
+
+* handle high order components (~decorators) name ([96f13af](https://github.com/algolia/expect-to-equal-jsx/commit/96f13af))
+
+
+
 <a name="1.1.3"></a>
 ## [1.1.3](https://github.com/algolia/expect-to-equal-jsx/compare/v1.1.2...v1.1.3) (2015-10-16)
 
