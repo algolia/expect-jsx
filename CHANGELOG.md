@@ -1,3 +1,13 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/algolia/expect-to-equal-jsx/compare/v1.1.0...v1.1.1) (2015-10-16)
+
+
+### Bug Fixes
+
+* handle empty objects ([df08165](https://github.com/algolia/expect-to-equal-jsx/commit/df08165))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/algolia/expect-to-equal-jsx/compare/v1.0.3...v1.1.0) (2015-10-16)
 
