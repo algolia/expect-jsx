@@ -1,17 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [expect-to-equal-jsx](#expect-to-equal-jsx)
-  - [Setup](#setup)
-  - [Usage](#usage)
-  - [A note about functions](#a-note-about-functions)
-  - [Test](#test)
-  - [Build](#build)
-  - [Thanks](#thanks)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # expect-to-equal-jsx
 
 [![Version][version-svg]][package-url] [![Build Status][travis-svg]][travis-url] [![License][license-image]][license-url] [![Downloads][downloads-image]][downloads-url]
@@ -29,6 +15,20 @@
 toEqualJSX for [mjackson/expect](https://github.com/mjackson/expect).
 
 It uses [algolia/react-element-to-jsx-string](https://github.com/algolia/react-element-to-jsx-string) in the background to turn React elements into formatted strings.
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [expect-to-equal-jsx](#expect-to-equal-jsx)
+  - [Setup](#setup)
+  - [Usage](#usage)
+  - [A note about functions](#a-note-about-functions)
+  - [Test](#test)
+  - [Build](#build)
+  - [Thanks](#thanks)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Setup
 
