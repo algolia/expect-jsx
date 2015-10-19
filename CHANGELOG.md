@@ -1,3 +1,30 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/algolia/expect-jsx/compare/v1.1.4...v2.0.0) (2015-10-19)
+
+
+### Bug Fixes
+
+* change package name to expect-jsx ([665ed66](https://github.com/algolia/expect-jsx/commit/665ed66)), closes [#3](https://github.com/algolia/expect-jsx/issues/3)
+
+### Features
+
+* add toNotEqualJSX, toIncludeJSX, change default export ([6402777](https://github.com/algolia/expect-jsx/commit/6402777)), closes [#2](https://github.com/algolia/expect-jsx/issues/2) [#4](https://github.com/algolia/expect-jsx/issues/4) [#5](https://github.com/algolia/expect-jsx/issues/5) [#6](https://github.com/algolia/expect-jsx/issues/6)
+
+
+### BREAKING CHANGES
+
+* you now have to use the package like this:
+
+```js
+import expectJSX from 'expect-jsx';
+
+expect.extend(expectJSX);
+```
+* package is now installed with `npm install expect-jsx
+--save-dev`
+
+
+
 <a name="1.1.4"></a>
 ## [1.1.4](https://github.com/algolia/expect-jsx/compare/v1.1.3...v1.1.4) (2015-10-16)
 
