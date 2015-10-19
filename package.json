@@ -13,6 +13,7 @@
   "author": "Algolia <support@algolia.com> (https://github.com/algolia/)",
   "license": "MIT",
   "dependencies": {
+    "collapse-white-space": "^1.0.0",
     "react-element-to-jsx-string": "^2.0.4"
   },
   "repository": "algolia/expect-jsx",

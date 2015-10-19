@@ -2133,6 +2133,11 @@
         }
       }
     },
+    "collapse-white-space": {
+      "version": "1.0.0",
+      "from": "collapse-white-space@*",
+      "resolved": "https://registry.npmjs.org/collapse-white-space/-/collapse-white-space-1.0.0.tgz"
+    },
     "eslint": {
       "version": "1.6.0",
       "from": "eslint@>=1.6.0 <2.0.0",

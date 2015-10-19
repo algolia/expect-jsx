@@ -38,21 +38,43 @@ You will most probably use this plugin as a development dependency.
 npm install expect-jsx --save-dev
 ```
 
+## API
+
+- expect(ReactComponent|JSX).toEqualJSX(ReactComponent|JSX)
+- expect(ReactComponent|JSX).toNotEqualJSX(ReactComponent|JSX)
+- expect(ReactComponent|JSX).toIncludeJSX(ReactComponent|JSX)
+
 ## Usage
+
+Here's an example using [mochajs/mocha](https://github.com/mochajs/mocha).
 
 ```js
 import React from 'react';
 import expect from 'expect';
-import toEqualJSX from 'expect-jsx';
+import expectJSX from 'expect-jsx';
 
-expect.extend({toEqualJSX});
+expect.extend(expectJSX);
 
-expect(<div/>).toEqualJSX(<div/>);
-expect(<div a="1" b="2"/>).toEqualJSX(<div/>);
-// Error: Expected '<div\n  a="1"\n  b="2"\n/>' to equal '<div />'
+class TestComponent extends React.Component {}
+
+descrobe('expect-jsx', () => {
+  it('works', () => {
+    expect(<div />).toEqualJSX(<div />);
+    // ok
+
+    expect(<div a="1" b="2" />).toEqualJSX(<div />);
+    // Error: Expected '<div\n  a="1"\n  b="2"\n/>' to equal '<div />'
+
+    expect(<span />).toNotEqualJSX(<div/>);
+    // ok
+
+    expect(<div><TestComponent /></div>).toIncludeJSX(<TestComponent />);
+    // ok
+  });
+});
 ```
 
-When using [mochajs/mocha](https://github.com/mochajs/mocha), this will look like this:
+It looks like this when ran:
 
 ![Screenshot when using mocha][screenshot]
 

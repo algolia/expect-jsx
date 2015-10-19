@@ -2,53 +2,99 @@
 
 import React from 'react';
 import expect from 'expect';
-import toEqualJSX from './index';
+import expectJSX from './index';
 
-expect.extend({toEqualJSX});
+expect.extend(expectJSX);
 
-class TestComponent extends React.Component {}
+class TestComponent extends React.Component {
+  render() {
+    return <div>Hi! {this.props.name}</div>;
+  }
+}
 
 describe('expect(ReactElement).toEqualJSX(ReactElement)', () => {
-  it('exists', () => {
-    expect(expect().toEqualJSX).toBeA('function');
+  context('api', () => {
+    it('has toEqualJSX', () => {
+      expect(expect().toEqualJSX).toBeA('function');
+    });
+
+    it('has toNotEqualJSX', () => {
+      expect(expect().toNotEqualJSX).toBeA('function');
+    });
+
+    it('has toIncludeJSX', () => {
+      expect(expect().toIncludeJSX).toBeA('function');
+    });
   });
 
-  it('can diff React elements', () => {
-    expect(
-      <TestComponent />
-    ).toEqualJSX(
-      <TestComponent />
-    );
+  context('toEqualJSX', () => {
+    it('can diff React elements', () => {
+      expect(
+        <TestComponent />
+      ).toEqualJSX(
+        <TestComponent />
+      );
+    });
+
+    it('throws when elements are different', () => {
+      try {
+        expect(<TestComponent extra="neous" />).toEqualJSX(<TestComponent />);
+      } catch (err) {
+        expect(err instanceof Error).toBe(true);
+        expect(err.message).toEqual(`Expected '<TestComponent extra="neous" />' to equal '<TestComponent />'`);
+      }
+    });
+
+    it('does not care about function', () => {
+      var fns = {
+        one() {return 'one';},
+        two() {return 'two';}
+      };
+
+      expect(
+        <TestComponent fn={fns.one} />
+      ).toEqualJSX(
+        <TestComponent fn={fns.two} />
+      );
+    });
+
+    it('handle render method with interpolation', () => {
+      expect(
+        <TestComponent name="Jon" />
+      ).toNotEqual(
+      <TestComponent name="Marry" />
+      );
+    });
   });
 
-  it('throws when elements are different', () => {
-    try {
-      expect(<TestComponent extra="neous" />).toEqualJSX(<TestComponent />);
-    } catch (err) {
-      expect(err instanceof Error).toBe(true);
-      expect(err.message).toEqual(`Expected '<TestComponent extra="neous" />' to equal '<TestComponent />'`);
-    }
+  context('toNotEqualJSX', () => {
+    it('works', () => {
+      expect(<div />).toNotEqualJSX(<div Hello=", world!" />);
+    });
+
+    it('throws when elements are the same', () => {
+      try {
+        expect(<div />).toNotEqualJSX(<div />);
+      } catch (err) {
+        expect(err instanceof Error).toBe(true);
+        expect(err.message).toEqual(`Expected '<div />' to not equal '<div />'`);
+      }
+    });
   });
 
-  it('does not care about function', () => {
-    var fns = {
-      one() {return 'one';},
-      two() {return 'two';}
-    };
+  context('toIncludeJSX', () => {
+    it('works', () => {
+      expect(<div><div><TestComponent Hello=", world!"/></div></div>)
+        .toIncludeJSX(<div><TestComponent Hello=", world!"/></div>);
+    });
 
-    expect(
-      <TestComponent fn={fns.one} />
-    ).toEqualJSX(
-      <TestComponent fn={fns.two} />
-    );
-  });
-
-  it('does not care about props order', () => {
-    /* eslint react/jsx-sort-props: 0 */
-    expect(
-      <TestComponent one="one" two="two" />
-    ).toEqualJSX(
-      <TestComponent two="two" one="one" />
-    );
+    it('throws when element is not included', () => {
+      try {
+        expect(<div />).toIncludeJSX(<div Hello=", world!" />);
+      } catch (err) {
+        expect(err instanceof Error).toBe(true);
+        expect(err.message).toEqual(`Expected '<div />' to include '<div Hello=", world!" />'`);
+      }
+    });
   });
 });
