@@ -1,5 +1,5 @@
 {
-  "name": "expect-to-equal-jsx",
+  "name": "expect-jsx",
   "version": "1.1.4",
   "description": "toEqualJSX for mjackson/expect",
   "main": "index-dist.js",
@@ -15,7 +15,7 @@
   "dependencies": {
     "react-element-to-jsx-string": "^2.0.4"
   },
-  "repository": "algolia/expect-to-equal-jsx",
+  "repository": "algolia/expect-jsx",
   "devDependencies": {
     "babel": "^5.8.23",
     "babel-eslint": "^4.1.3",

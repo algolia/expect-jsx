@@ -1,5 +1,5 @@
 {
-  "name": "expect-to-equal-jsx",
+  "name": "expect-jsx",
   "version": "1.1.4",
   "dependencies": {
     "babel": {

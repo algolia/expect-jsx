@@ -1,15 +1,15 @@
-# expect-to-equal-jsx
+# expect-jsx
 
 [![Version][version-svg]][package-url] [![Build Status][travis-svg]][travis-url] [![License][license-image]][license-url] [![Downloads][downloads-image]][downloads-url]
 
-[travis-svg]: https://img.shields.io/travis/algolia/expect-to-equal-jsx/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/algolia/expect-to-equal-jsx
+[travis-svg]: https://img.shields.io/travis/algolia/expect-jsx/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/algolia/expect-jsx
 [license-image]: http://img.shields.io/badge/license-MIT-green.svg?style=flat-square
 [license-url]: LICENSE
-[downloads-image]: https://img.shields.io/npm/dm/expect-to-equal-jsx.svg?style=flat-square
-[downloads-url]: http://npm-stat.com/charts.html?package=expect-to-equal-jsx
-[version-svg]: https://img.shields.io/npm/v/expect-to-equal-jsx.svg?style=flat-square
-[package-url]: https://npmjs.org/package/expect-to-equal-jsx
+[downloads-image]: https://img.shields.io/npm/dm/expect-jsx.svg?style=flat-square
+[downloads-url]: http://npm-stat.com/charts.html?package=expect-jsx
+[version-svg]: https://img.shields.io/npm/v/expect-jsx.svg?style=flat-square
+[package-url]: https://npmjs.org/package/expect-jsx
 [screenshot]: ./screenshot.png
 
 toEqualJSX for [mjackson/expect](https://github.com/mjackson/expect).
@@ -20,7 +20,7 @@ It uses [algolia/react-element-to-jsx-string](https://github.com/algolia/react-e
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [expect-to-equal-jsx](#expect-to-equal-jsx)
+- [expect-jsx](#expect-jsx)
   - [Setup](#setup)
   - [Usage](#usage)
   - [A note about functions](#a-note-about-functions)
@@ -32,8 +32,10 @@ It uses [algolia/react-element-to-jsx-string](https://github.com/algolia/react-e
 
 ## Setup
 
+You will most probably use this plugin as a development dependency.
+
 ```sh
-npm install expect-to-equal-jsx --save[-dev]
+npm install expect-jsx --save-dev
 ```
 
 ## Usage
@@ -41,7 +43,7 @@ npm install expect-to-equal-jsx --save[-dev]
 ```js
 import React from 'react';
 import expect from 'expect';
-import toEqualJSX from 'expect-to-equal-jsx';
+import toEqualJSX from 'expect-jsx';
 
 expect.extend({toEqualJSX});
 
