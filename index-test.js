@@ -41,7 +41,8 @@ describe('expect(ReactElement).toEqualJSX(ReactElement)', () => {
         expect(<TestComponent extra="neous" />).toEqualJSX(<TestComponent />);
       } catch (err) {
         expect(err instanceof Error).toBe(true);
-        expect(err.message).toEqual(`Expected '<TestComponent extra="neous" />' to equal '<TestComponent />'`);
+        expect(err.message)
+          .toEqual(`Expected '<TestComponent extra="neous" />' to equal '<TestComponent />'`);
       }
     });
 
