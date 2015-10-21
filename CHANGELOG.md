@@ -1,3 +1,13 @@
+<a name="2.0.1"></a>
+## [2.0.1](https://github.com/algolia/expect-jsx/compare/v2.0.0...v2.0.1) (2015-10-21)
+
+
+### Bug Fixes
+
+* handle inline props string replacement ([5e89032](https://github.com/algolia/expect-jsx/commit/5e89032))
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/algolia/expect-jsx/compare/v1.1.4...v2.0.0) (2015-10-19)
 
