@@ -3442,9 +3442,9 @@
       }
     },
     "react-element-to-jsx-string": {
-      "version": "2.0.5",
-      "from": "react-element-to-jsx-string@2.0.5",
-      "resolved": "https://registry.npmjs.org/react-element-to-jsx-string/-/react-element-to-jsx-string-2.0.5.tgz",
+      "version": "2.1.0",
+      "from": "react-element-to-jsx-string@2.1.0",
+      "resolved": "https://registry.npmjs.org/react-element-to-jsx-string/-/react-element-to-jsx-string-2.1.0.tgz",
       "dependencies": {
         "is-plain-object": {
           "version": "2.0.1",
