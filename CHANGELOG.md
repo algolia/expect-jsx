@@ -1,3 +1,13 @@
+<a name="2.1.1"></a>
+## [2.1.1](https://github.com/algolia/expect-jsx/compare/v2.1.0...v2.1.1) (2015-11-08)
+
+
+### Bug Fixes
+
+* handle {number} and {false} {true} cases ([0a4ccf5](https://github.com/algolia/expect-jsx/commit/0a4ccf5))
+
+
+
 <a name="2.1.0"></a>
 # [2.1.0](https://github.com/algolia/expect-jsx/compare/v2.0.1...v2.1.0) (2015-10-25)
 
