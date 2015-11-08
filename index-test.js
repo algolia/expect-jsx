@@ -1,4 +1,5 @@
 /* eslint-env mocha */
+/* eslint react/prop-types:0 */
 
 import React from 'react';
 import expect from 'expect';
