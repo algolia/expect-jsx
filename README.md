@@ -105,12 +105,12 @@ There are multiple similar projects for other assertions libraries, all based on
 [algolia/react-element-to-jsx-string](https://github.com/algolia/react-element-to-jsx-string).
 For instance:
 
-* [chai-equal-jsx](https://www.npmjs.com/package/chai-equal-jsx), assertions for chai.   
-  Sample: `expect(<div />).to.equalJSX(<div />);`
-* [chai-jsx](https://www.npmjs.com/package/chai-jsx), assertions for chai.  
-  Sample: `expect(<div />).jsx.to.equal(<div />);`
-* [tape-jsx-equals](https://www.npmjs.com/package/tape-jsx-equals), assertions for tape.  
-  Sample: `t.jsxEquals(<div />, <div />);`
+* [chai-equal-jsx](https://www.npmjs.com/package/chai-equal-jsx), assertions for chai:
+  `expect(<div />).to.equalJSX(<div />);`
+* [chai-jsx](https://www.npmjs.com/package/chai-jsx), assertions for chai:
+  `expect(<div />).jsx.to.equal(<div />);`
+* [tape-jsx-equals](https://www.npmjs.com/package/tape-jsx-equals), assertions for tape:
+  `t.jsxEquals(<div />, <div />);`
 
 ## Thanks
 
