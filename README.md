@@ -20,13 +20,14 @@ It uses [algolia/react-element-to-jsx-string](https://github.com/algolia/react-e
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [expect-jsx](#expect-jsx)
-  - [Setup](#setup)
-  - [Usage](#usage)
-  - [A note about functions](#a-note-about-functions)
-  - [Test](#test)
-  - [Build](#build)
-  - [Thanks](#thanks)
+- [Setup](#setup)
+- [API](#api)
+- [Usage](#usage)
+- [A note about functions](#a-note-about-functions)
+- [Test](#test)
+- [Build](#build)
+- [Similar projects](#similar-projects)
+- [Thanks](#thanks)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
