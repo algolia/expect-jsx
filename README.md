@@ -110,6 +110,8 @@ For instance:
   `expect(<div />).to.equalJSX(<div />);`
 * [chai-jsx](https://www.npmjs.com/package/chai-jsx), assertions for chai:
   `expect(<div />).jsx.to.equal(<div />);`
+* [jsx-chai](https://github.com/bkonkle/jsx-chai), assertions for chai:
+  `expect(<div />).to.deep.equal(<div />);`
 * [tape-jsx-equals](https://www.npmjs.com/package/tape-jsx-equals), assertions for tape:
   `t.jsxEquals(<div />, <div />);`
 
