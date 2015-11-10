@@ -58,7 +58,7 @@ expect.extend(expectJSX);
 
 class TestComponent extends React.Component {}
 
-descrobe('expect-jsx', () => {
+describe('expect-jsx', () => {
   it('works', () => {
     expect(<div />).toEqualJSX(<div />);
     // ok
