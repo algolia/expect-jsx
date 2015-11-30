@@ -20,13 +20,14 @@ It uses [algolia/react-element-to-jsx-string](https://github.com/algolia/react-e
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [expect-jsx](#expect-jsx)
-  - [Setup](#setup)
-  - [Usage](#usage)
-  - [A note about functions](#a-note-about-functions)
-  - [Test](#test)
-  - [Build](#build)
-  - [Thanks](#thanks)
+- [Setup](#setup)
+- [API](#api)
+- [Usage](#usage)
+- [A note about functions](#a-note-about-functions)
+- [Test](#test)
+- [Build](#build)
+- [Similar projects](#similar-projects)
+- [Thanks](#thanks)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -57,7 +58,7 @@ expect.extend(expectJSX);
 
 class TestComponent extends React.Component {}
 
-descrobe('expect-jsx', () => {
+describe('expect-jsx', () => {
   it('works', () => {
     expect(<div />).toEqualJSX(<div />);
     // ok
@@ -98,6 +99,21 @@ npm run test:watch
 npm run build
 npm run build:watch
 ```
+
+## Similar projects
+
+There are multiple similar projects for other assertions libraries, all based on
+[algolia/react-element-to-jsx-string](https://github.com/algolia/react-element-to-jsx-string).
+For instance:
+
+* [chai-equal-jsx](https://www.npmjs.com/package/chai-equal-jsx), assertions for chai:
+  `expect(<div />).to.equalJSX(<div />);`
+* [chai-jsx](https://www.npmjs.com/package/chai-jsx), assertions for chai:
+  `expect(<div />).jsx.to.equal(<div />);`
+* [jsx-chai](https://github.com/bkonkle/jsx-chai), assertions for chai:
+  `expect(<div />).to.deep.equal(<div />);`
+* [tape-jsx-equals](https://www.npmjs.com/package/tape-jsx-equals), assertions for tape:
+  `t.jsxEquals(<div />, <div />);`
 
 ## Thanks
 
