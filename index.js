@@ -25,6 +25,13 @@ let api = {
     ).toInclude(
       collapse(reactElementToJSXString(ReactElement))
     );
+  },
+  toNotIncludeJSX(ReactElement) {
+    return expect(
+        collapse(reactElementToJSXString(this.actual))
+    ).toExclude(
+        collapse(reactElementToJSXString(ReactElement))
+    );
   }
 };
 

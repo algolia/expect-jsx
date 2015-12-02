@@ -99,4 +99,21 @@ describe('expect(ReactElement).toEqualJSX(ReactElement)', () => {
       }
     });
   });
+
+  context('toNotIncludeJSX', () => {
+    it('works', () => {
+      expect(<div><div><TestComponent Hello=", world!"/></div></div>)
+        .toNotIncludeJSX(<div><TestComponent Jello=", world!"/></div>);
+    });
+
+    it('throws when element is included', () => {
+      try {
+        expect(<div Hello=", world!" />).toNotIncludeJSX(<div Hello=", world!" />);
+      } catch (err) {
+        expect(err instanceof Error).toBe(true);
+        let message = `Expected '<div Hello=", world!" />' to exclude '<div Hello=", world!" />'`;
+        expect(err.message).toEqual(message);
+      }
+    });
+  });
 });

@@ -44,6 +44,7 @@ npm install expect-jsx --save-dev
 - expect(ReactComponent|JSX).toEqualJSX(ReactComponent|JSX)
 - expect(ReactComponent|JSX).toNotEqualJSX(ReactComponent|JSX)
 - expect(ReactComponent|JSX).toIncludeJSX(ReactComponent|JSX)
+- expect(ReactComponent|JSX).toNotIncludeJSX(ReactComponent|JSX)
 
 ## Usage
 
