@@ -1,3 +1,10 @@
+<a name="2.2.0"></a>
+# [2.2.0](https://github.com/algolia/expect-jsx/compare/v2.1.3...v2.2.0) (2015-12-08)
+
+### Features
+
+* add toNotIncludeJSX ([72740a6](https://github.com/algolia/expect-jsx/commit/72740a67e87e1ddeaea2c3026796a626dc2cdaae))
+
 <a name="2.1.3"></a>
 ## [2.1.3](https://github.com/algolia/expect-jsx/compare/v2.1.0...v2.1.3) (2015-11-30)
 
