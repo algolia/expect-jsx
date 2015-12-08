@@ -114,6 +114,8 @@ For instance:
   `expect(<div />).to.deep.equal(<div />);`
 * [tape-jsx-equals](https://www.npmjs.com/package/tape-jsx-equals), assertions for tape:
   `t.jsxEquals(<div />, <div />);`
+* [jasmine-expect-jsx](https://www.npmjs.com/package/jasmine-expect-jsx), assertions for jasmine:
+  `expect(<div />).toEqualJSX(<div />);`
 
 ## Thanks
 
