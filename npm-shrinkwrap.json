@@ -4105,8 +4105,8 @@
       }
     },
     "react-element-to-jsx-string": {
-      "version": "2.1.4",
-      "resolved": "https://registry.npmjs.org/react-element-to-jsx-string/-/react-element-to-jsx-string-2.1.4.tgz",
+      "version": "2.1.5",
+      "resolved": "https://registry.npmjs.org/react-element-to-jsx-string/-/react-element-to-jsx-string-2.1.5.tgz",
       "dependencies": {
         "is-plain-object": {
           "version": "2.0.1",
@@ -4123,8 +4123,8 @@
           "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz"
         },
         "react": {
-          "version": "0.14.3",
-          "resolved": "https://registry.npmjs.org/react/-/react-0.14.3.tgz",
+          "version": "0.14.5",
+          "resolved": "https://registry.npmjs.org/react/-/react-0.14.5.tgz",
           "dependencies": {
             "envify": {
               "version": "3.4.0",
@@ -4161,8 +4161,8 @@
               }
             },
             "fbjs": {
-              "version": "0.3.2",
-              "resolved": "https://registry.npmjs.org/fbjs/-/fbjs-0.3.2.tgz",
+              "version": "0.6.0",
+              "resolved": "https://registry.npmjs.org/fbjs/-/fbjs-0.6.0.tgz",
               "dependencies": {
                 "core-js": {
                   "version": "1.2.6",
@@ -4179,8 +4179,8 @@
                   }
                 },
                 "promise": {
-                  "version": "7.0.4",
-                  "resolved": "https://registry.npmjs.org/promise/-/promise-7.0.4.tgz",
+                  "version": "7.1.1",
+                  "resolved": "https://registry.npmjs.org/promise/-/promise-7.1.1.tgz",
                   "dependencies": {
                     "asap": {
                       "version": "2.0.3",
@@ -4189,8 +4189,8 @@
                   }
                 },
                 "ua-parser-js": {
-                  "version": "0.7.9",
-                  "resolved": "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.9.tgz"
+                  "version": "0.7.10",
+                  "resolved": "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.10.tgz"
                 },
                 "whatwg-fetch": {
                   "version": "0.9.0",
@@ -4201,8 +4201,8 @@
           }
         },
         "react-addons-test-utils": {
-          "version": "0.14.3",
-          "resolved": "https://registry.npmjs.org/react-addons-test-utils/-/react-addons-test-utils-0.14.3.tgz"
+          "version": "0.14.5",
+          "resolved": "https://registry.npmjs.org/react-addons-test-utils/-/react-addons-test-utils-0.14.5.tgz"
         },
         "sortobject": {
           "version": "1.0.0",
