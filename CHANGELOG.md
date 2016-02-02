@@ -1,4 +1,10 @@
 <a name="2.2.2"></a>
+## [2.2.2](https://github.com/algolia/expect-jsx/compare/2.3.0...v2.2.2) (2016-02-02)
+
+
+
+
+<a name="2.2.2"></a>
 ## [2.2.2](https://github.com/algolia/expect-jsx/compare/v2.2.1...v2.2.2) (2016-01-05)
 
 

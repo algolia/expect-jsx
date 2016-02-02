@@ -1,6 +1,6 @@
 {
   "name": "expect-jsx",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "npm-shrinkwrap-version": "200.4.0",
   "node-version": "v5.5.0",
   "dependencies": {
