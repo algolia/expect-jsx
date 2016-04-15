@@ -1,3 +1,9 @@
+<a name="2.5.0"></a>
+# [2.5.0](https://github.com/algolia/expect-jsx/compare/v2.5.1...v2.5.0) (2016-04-15)
+
+
+
+
 <a name="2.4.0"></a>
 # [2.4.0](https://github.com/algolia/expect-jsx/compare/v2.5.0...v2.4.0) (2016-04-15)
 
