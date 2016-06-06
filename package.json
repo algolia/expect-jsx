@@ -15,7 +15,7 @@
   "dependencies": {
     "collapse-white-space": "^1.0.0",
     "react": "^0.14.8 || ^15.0.1",
-    "react-element-to-jsx-string": "^2.6.1"
+    "react-element-to-jsx-string": "^3.0.0"
   },
   "repository": "algolia/expect-jsx",
   "keywords": [
