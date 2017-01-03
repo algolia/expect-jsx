@@ -43,14 +43,14 @@ describe('expect(ReactElement).toEqualJSX(ReactElement)', () => {
       } catch (err) {
         expect(err instanceof Error).toBe(true);
         expect(err.message)
-          .toEqual(`Expected '<TestComponent extra="neous" />' to equal '<TestComponent />'`);
+          .toEqual('Expected \'<TestComponent extra="neous" />\' to equal \'<TestComponent />\'');
       }
     });
 
     it('does not care about function', () => {
-      var fns = {
-        one() {return 'one';},
-        two() {return 'two';}
+      const fns = {
+        one() { return 'one'; },
+        two() { return 'two'; },
       };
 
       expect(
@@ -79,7 +79,7 @@ describe('expect(ReactElement).toEqualJSX(ReactElement)', () => {
         expect(<div />).toNotEqualJSX(<div />);
       } catch (err) {
         expect(err instanceof Error).toBe(true);
-        expect(err.message).toEqual(`Expected '<div />' to not equal '<div />'`);
+        expect(err.message).toEqual('Expected \'<div />\' to not equal \'<div />\'');
       }
     });
   });
@@ -95,7 +95,7 @@ describe('expect(ReactElement).toEqualJSX(ReactElement)', () => {
         expect(<div />).toIncludeJSX(<div Hello=", world!" />);
       } catch (err) {
         expect(err instanceof Error).toBe(true);
-        expect(err.message).toEqual(`Expected '<div />' to include '<div Hello=", world!" />'`);
+        expect(err.message).toEqual('Expected \'<div />\' to include \'<div Hello=", world!" />\'');
       }
     });
   });
@@ -111,7 +111,7 @@ describe('expect(ReactElement).toEqualJSX(ReactElement)', () => {
         expect(<div Hello=", world!" />).toNotIncludeJSX(<div Hello=", world!" />);
       } catch (err) {
         expect(err instanceof Error).toBe(true);
-        let message = `Expected '<div Hello=", world!" />' to exclude '<div Hello=", world!" />'`;
+        const message = 'Expected \'<div Hello=", world!" />\' to exclude \'<div Hello=", world!" />\'';
         expect(err.message).toEqual(message);
       }
     });

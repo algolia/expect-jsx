@@ -36,7 +36,7 @@ It uses [algolia/react-element-to-jsx-string](https://github.com/algolia/react-e
 You will most probably use this plugin as a development dependency.
 
 ```sh
-npm install expect-jsx --save-dev
+yarn add expect-jsx --dev
 ```
 
 ## API
@@ -90,15 +90,15 @@ It's your responsibility to then unit test those functions.
 ## Test
 
 ```sh
-npm test
-npm run test:watch
+yarn test
+yarn test:watch
 ```
 
 ## Build
 
 ```sh
-npm run build
-npm run build:watch
+yarn build
+yarn build:watch
 ```
 
 ## Similar projects

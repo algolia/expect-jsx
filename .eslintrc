@@ -1,6 +1,0 @@
-{
-  "extends": "algolia",
-  "rules": {
-    "no-unused-vars": [2, {"vars": "local", "args": "after-used", "varsIgnorePattern": "^React$"}],
-  }
-}

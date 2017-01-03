@@ -1,10 +1,9 @@
-import React from 'react';
 import expect from 'expect';
 import collapse from 'collapse-white-space';
 
 import reactElementToJSXString from 'react-element-to-jsx-string';
 
-let api = {
+const api = {
   toEqualJSX(ReactElement) {
     return expect(
       reactElementToJSXString(this.actual)
@@ -32,7 +31,7 @@ let api = {
     ).toExclude(
         collapse(reactElementToJSXString(ReactElement))
     );
-  }
+  },
 };
 
 export default api;
