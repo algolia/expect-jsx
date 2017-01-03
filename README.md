@@ -87,6 +87,13 @@ expected somewhere, there's also a function in the actual data.
 
 It's your responsibility to then unit test those functions.
 
+## Environment requirements
+
+The environment you use to use `react-element-to-jsx-string` should have [ES2015](https://babeljs.io/learn-es2015/) support.
+
+Use the [Babel polyfill](https://babeljs.io/docs/usage/polyfill/) or any other method that will make you
+environment behave like an ES2015 environment.
+
 ## Test
 
 ```sh
