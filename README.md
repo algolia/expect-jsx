@@ -24,8 +24,10 @@ It uses [algolia/react-element-to-jsx-string](https://github.com/algolia/react-e
 - [API](#api)
 - [Usage](#usage)
 - [A note about functions](#a-note-about-functions)
+- [Environment requirements](#environment-requirements)
 - [Test](#test)
 - [Build](#build)
+- [Release](#release)
 - [Similar projects](#similar-projects)
 - [Thanks](#thanks)
 

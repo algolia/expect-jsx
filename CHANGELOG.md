@@ -1,3 +1,21 @@
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/algolia/expect-jsx/compare/v2.6.0...v3.0.0) (2017-01-03)
+
+
+### Chores
+
+* **lib:** upgrade to react-element-to-jsx-string latest ([a014672](https://github.com/algolia/expect-jsx/commit/a014672))
+
+
+### BREAKING CHANGES
+
+* lib: You need an ES2015 env to use
+expect-jsx now
+
+You can use the Babel polyfill to do so.
+
+
+
 <a name="2.6.0"></a>
 # [2.6.0](https://github.com/algolia/expect-jsx/compare/v2.5.1...v2.6.0) (2016-06-06)
 
