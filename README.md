@@ -108,6 +108,14 @@ yarn build
 yarn build:watch
 ```
 
+## Release
+
+Decide if this is a `patch`, `minor` or `major` release, look at http://semver.org/
+
+```sh
+yarn release [major|minor|patch|x.x.x]
+```
+
 ## Similar projects
 
 There are multiple similar projects for other assertions libraries, all based on
