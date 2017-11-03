@@ -1,6 +1,6 @@
 {
   "name": "expect-jsx",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "toEqualJSX for mjackson/expect",
   "main": "index-dist.js",
   "scripts": {
@@ -18,8 +18,8 @@
   "license": "MIT",
   "dependencies": {
     "collapse-white-space": "^1.0.0",
-    "react": "^0.14.8 || ^15.0.1",
-    "react-element-to-jsx-string": "^12.0.0"
+    "react": "^16.0.0",
+    "react-element-to-jsx-string": "^13.0.0"
   },
   "repository": "algolia/expect-jsx",
   "keywords": [
@@ -47,7 +47,7 @@
     "json": "^9.0.4",
     "mocha": "^3.2.0",
     "mversion": "^1.10.1",
-    "react": "^15.0.1"
+    "react": "^16.0.0"
   },
   "peerDependencies": {
     "expect": "^1.0.0"
