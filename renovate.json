@@ -1,5 +1,9 @@
 {
   "extends": [
-    "config:base"
-  ]
+    ":library"
+  ],
+  "patch": {
+    "automerge": true,
+    "automergeType": "branch-push"
+  }
 }
