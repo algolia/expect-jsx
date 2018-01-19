@@ -1,12 +1,6 @@
 {
   "extends": [
-    "config:library"
-  ],
-  "semanticCommits": true,
-  "rebaseStalePrs": true,
-  "automerge": true,
-  "major": {
-    "automerge": false
-  },
-  "automergeType": "branch-push"
+    "config:js-app",
+    "algolia"
+  ]
 }
