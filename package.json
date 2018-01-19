@@ -17,9 +17,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "collapse-white-space": "^1.0.0",
-    "react": "^16.0.0",
-    "react-element-to-jsx-string": "^13.0.0"
+    "collapse-white-space": "1.0.3",
+    "react": "16.2.0",
+    "react-element-to-jsx-string": "13.1.0"
   },
   "repository": "algolia/expect-jsx",
   "keywords": [
