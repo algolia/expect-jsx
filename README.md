@@ -1,4 +1,4 @@
-*Note from maintainers* Since Jest supports [snapshot testing](https://facebook.github.io/jest/docs/en/snapshot-testing.html), we recommend you to use that instead of `expect-jsx`.
+**Note from maintainers** Since Jest supports [snapshot testing](https://facebook.github.io/jest/docs/en/snapshot-testing.html), we recommend you to use that instead of `expect-jsx`.
 
 `expect-jsx` is no more compatible with recent Jest versions (22), it can be made compatible so feel free to open a PR if so.
 
