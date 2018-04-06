@@ -18,7 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "collapse-white-space": "1.0.3",
-    "react": "16.3.0",
+    "react": "16.3.1",
     "react-element-to-jsx-string": "13.2.0"
   },
   "repository": "algolia/expect-jsx",
@@ -47,7 +47,7 @@
     "json": "9.0.6",
     "mocha": "5.0.5",
     "mversion": "1.10.1",
-    "react": "16.3.0"
+    "react": "16.3.1"
   },
   "peerDependencies": {
     "expect": "^1.0.0"
