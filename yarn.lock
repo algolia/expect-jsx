@@ -2019,9 +2019,9 @@ eslint-plugin-jasmine@^1.8.1:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jasmine/-/eslint-plugin-jasmine-1.9.0.tgz#99578cd3009ec137c8d3b8a0c25c32581168bba5"
 
-eslint-plugin-react@7.7.0:
-  version "7.7.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.7.0.tgz#f606c719dbd8a1a2b3d25c16299813878cca0160"
+eslint-plugin-react@7.8.1:
+  version "7.8.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.8.1.tgz#6bfb5288227645eb7ca3ba8810b87024e0d6c993"
   dependencies:
     doctrine "^2.0.2"
     has "^1.0.1"
