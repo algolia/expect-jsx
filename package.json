@@ -45,7 +45,7 @@
     "eslint-plugin-react": "7.8.2",
     "expect": "1.20.2",
     "json": "9.0.6",
-    "mocha": "5.1.1",
+    "mocha": "5.2.0",
     "mversion": "1.10.1",
     "react": "16.3.2"
   },
