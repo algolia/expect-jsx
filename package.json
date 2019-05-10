@@ -17,7 +17,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "collapse-white-space": "1.0.4",
+    "collapse-white-space": "1.0.5",
     "react": "16.8.6",
     "react-element-to-jsx-string": "13.2.0"
   },
