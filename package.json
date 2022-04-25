@@ -46,7 +46,7 @@
     "expect": "1.20.2",
     "json": "9.0.6",
     "mocha": "5.2.0",
-    "mversion": "1.13.0",
+    "mversion": "2.0.1",
     "react": "16.13.1"
   },
   "peerDependencies": {
