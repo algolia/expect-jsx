@@ -43,13 +43,13 @@
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-jasmine": "2.10.1",
     "eslint-plugin-react": "7.20.6",
-    "expect": "1.20.2",
+    "expect": "25.5.0",
     "json": "9.0.6",
     "mocha": "5.2.0",
     "mversion": "1.13.0",
     "react": "16.13.1"
   },
   "peerDependencies": {
-    "expect": "^1.0.0"
+    "expect": "^1.0.0 || ^25.0.0"
   }
 }
