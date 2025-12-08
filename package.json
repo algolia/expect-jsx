@@ -19,7 +19,7 @@
   "dependencies": {
     "collapse-white-space": "1.0.6",
     "react": "16.13.1",
-    "react-element-to-jsx-string": "13.2.0"
+    "react-element-to-jsx-string": "15.0.0"
   },
   "repository": "algolia/expect-jsx",
   "keywords": [
